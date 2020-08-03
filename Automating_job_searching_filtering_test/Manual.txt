@@ -1,0 +1,16 @@
+0. Copy the project folder to your local computer from my Github.
+
+1. install python on your computer if you didn't install it before.
+
+2. Pip install the modules imported in the .py scripts that you didn't install before.
+
+3. Open the "run_daily.bat" in your notepad software, replace the paths of python.exe and the scripts to the correct ones according to your system.
+
+4. Open the "Indeed_Job_daily_sorting.py", change the "digital_me" variable to your version according to your profile (soft skills, personality, work experience, and career preferences, etc). Do the same to the "digital_me" variable in the "LinkedIn_Job_daily_sorting.py" file.
+
+5. Modify the "query" and "location" variables according to your situation. make the "query" as broad as possible, so that your code will not miss any job posts that you maybe interested. But don't make it too broad! If you make query = "engineer", Linkedin and Indeed may not be happy with you because you are scrapping thousands of jobs from their server every time!
+
+6. Everything is set, you are good to go. Double click the "run_daily.bat" file. The programs will run automatically to scrap job posts for you from LinkedIn and Indeed. After they finish scraping, they will sort the jobs according to how much they matches your profile, or your "digital_me", and open the top 10 job posts in your default browser for you. 5 from indeed, another 5 from LinkedIn.
+
+7. If you like this program and want it to find jobs for you once per day, create a windows task in "task scheduler" to run the "run_daily.bat" daily.
+
